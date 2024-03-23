@@ -1,0 +1,202 @@
+body{
+    width: 100%;
+    margin:0%;
+    background-color: black;
+    position:absolute;
+}
+
+
+/* Header Elements */
+.header{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    background-color: grey;
+    justify-content:space-between;
+    margin-top: 0%;
+    background-color: black;
+    z-index: 1000;
+}
+.hr-line{
+    width: 100%;
+    height: 1px;
+    background-color: #03FA6E;
+    margin-top: 105px;
+}
+.logo{
+    height: 5rem;
+    padding: 10px;
+    margin-left: 50px;
+}
+.text-box{
+    display: flex;
+    margin-right: 50px;
+    align-items: flex-end;
+    gap:50px;
+}
+h2{
+    color: #03FA6E;
+    font-size:medium;
+    margin-right: 20px;
+    letter-spacing: .8px;
+}
+
+
+/* Hero Section Elements */
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 150px;
+    align-items: center;
+    gap: 50px;
+}
+.profile-img{
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 1px 20px 1px grey;
+}
+.text-box2{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+button{
+    border: 1px solid #03FA6E;
+    background-color: black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color:#03FA6E;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+
+h1{
+    color: white;
+    font-family:sans-serif;
+    margin: 0%;
+}
+p{
+  font-family:serif;
+  color: #bfbcbc;
+}
+
+
+/* work section */
+.work-box{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    gap: 100px;
+}
+#box{
+    width: 100%;
+}
+
+
+/* portfolio section */
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    gap: 50px;
+    
+}
+.portfolio-box{
+    display: flex;
+    gap: 100px;
+}
+.portfolio img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Hobbies Section */
+.work-box{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    gap: 100px;
+}
+
+a {
+    color: #03FA6E;
+    text-decoration: none;
+}
+
+a, button:hover {
+    color:white; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+/* Resume Page CSS */
+
+.personal-info{
+    margin: 50px 10%;
+}
+.skills{
+    font-weight: bold;
+    color: #03FA6E;
+}
+h3{
+    color: white;
+    font-size: medium;
+    margin-bottom: 0px;
+}
+.inner-article{
+    margin-left: 35px;
+    margin-bottom: 40px;
+}
+.inner-article2{
+    margin-left:25px;
+    margin-top: 0px;
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+li{
+    list-style:none;
+    color: #bfbcbc;
+    margin-bottom: 5px;
+}
+#resume{
+    background-color: rgb(16, 15, 15);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 10px;
+    padding-bottom:100px;
+    position: relative;
+
+}    
+.footer-line{
+    width: 100%;
+    height: 1px;
+    background-color: #03FA6E;
+}
+
+#resume:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 100px solid black;
+    border-left: 100px solid grey;
+    width:0;
+  }
+
+  li.skills{
+    margin-top: 10px;
+  }
